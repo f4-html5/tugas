@@ -3,10 +3,18 @@
 <head>
 
 <style>
-h1 {background: linear-gradient(to bottom, lightgreen, green);}
-div {background: linear-gradient(to bottom, green, lightgreen);}
+h1 {
+    background: linear-gradient(to bottom, lightgreen, green);
+    
+}
 
-input[type=submit] {
+div {
+    background: linear-gradient(to bottom, green, lightgreen);
+    
+}
+
+input[type=submit] 
+{
     background: linear-gradient(to bottom, green, lightgreen);
     border: 2px solid green;
     color: #FFF;
@@ -23,3 +31,31 @@ input[type=submit]:active {
     background: #0044CC;
 }
 </style>
+
+<title>Login</title>
+</head>
+<body background="kuning.jpg" text="black">
+<h1 align=center>
+<font color=white face=calibri>Login Mahasiswa</font></h1>
+<form action=# method=get>
+
+<div><h4 align=center>
+<font color='white' face='calibri' size=4>
+Masukkan NPM<br>
+<input type=text name=npm><br><br>
+Masukkan Password<br>
+<input type=password name=password size=xx>
+</font></h4><br></div>
+
+<p align=center>
+<font color = black face="calibri" size = "2">
+Password Default: Tanggal Lahir<br>
+Contoh: 21021992<br>
+Angkatan 2011 : 1999-12-30
+</font><br></p>
+
+<h2 align=center><input type=submit value="Login" name=submit></h2><br>
+
+</form>
+</body>
+</html>
